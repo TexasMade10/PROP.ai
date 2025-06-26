@@ -6,7 +6,6 @@ import AIAnalysis from "../../../components/AIAnalysis";
 
 export default function PropertyDetail() {
   const params = useParams();
-  const propertyId = params.id;
 
   // Mock property data - in a real app, this would come from an API
   const property = {
