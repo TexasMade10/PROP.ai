@@ -1,0 +1,33 @@
+# PROP.ai Environment Configuration
+# Copy this file to .env.local and fill in your actual values
+
+# Supabase Configuration
+NEXT_PUBLIC_SUPABASE_URL=https://ohgguwscbtlsoojtkhwg.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9oZ2d1d3NjYnRsc29vanRraHdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA5MTE2MDksImV4cCI6MjA2NjQ4NzYwOX0.Fq47_zW3Osl8V9frWMJ3vXL3SHsXvCJE-NbTDxz5EOo
+
+# Database Connection (with actual password)
+DATABASE_URL=postgresql://postgres:WZ9tCJ4s6fBDOmcq@db.ohgguwscbtlsoojtkhwg.supabase.co:5432/postgres
+
+# Database Initialization (with actual service role key)
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9oZ2d1d3NjYnRsc29vanRraHdnIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MDkxMTYwOSwiZXhwIjoyMDY2NDg3NjA5fQ.osgzFDTCNlQ4JBWR7cPdhRcxnJspFJj8fRnywsca5LQ
+
+# Database Initialization Token (create a secure random string)
+DB_INIT_TOKEN=prop_ai_init_token_2024_secure
+
+# OpenAI Configuration (add your OpenAI API key)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Twilio Configuration (for AI phone calls - optional for now)
+TWILIO_ACCOUNT_SID=your_twilio_account_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone_number
+
+# Application Configuration
+NEXT_PUBLIC_APP_URL=http://localhost:3003
+NODE_ENV=development
+NEXT_PUBLIC_DEBUG_MODE=true
+
+# Feature Flags
+NEXT_PUBLIC_AI_PHONE_CALLS_ENABLED=true
+NEXT_PUBLIC_ADVANCED_ANALYTICS_ENABLED=true
+NEXT_PUBLIC_CUSTOM_ASSESSMENTS_ENABLED=false 
