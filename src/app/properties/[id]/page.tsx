@@ -1,12 +1,9 @@
 'use client';
 
 import Link from "next/link";
-import { useParams } from "next/navigation";
 import AIAnalysis from "../../../components/AIAnalysis";
 
 export default function PropertyDetail() {
-  const params = useParams();
-
   // Mock property data - in a real app, this would come from an API
   const property = {
     id: 1,
